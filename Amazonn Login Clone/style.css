@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+/* Header CSS - contains logo */
+header {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main form CSS */
+.main_con {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 500px;
+    padding-left: 15px;
+    width: 348px;
+    /* height: 400px; */
+    min-height: 400px; 
+    border: 1px solid rgb(148, 146, 146);
+    border-radius: 5px;
+}
+#error_msg{
+    color: #ce2110;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+input {
+    width: 325px;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.continue, .signin {
+    background-color: #f0c14b;
+    border: 1px solid #a88734 #9c7e31 #846a29;
+    border-radius: 6px;
+}
+
+.bel_form{
+    font-size: 12px;
+    padding: 10px 15px 10px 10px;
+    line-height: 15px;
+}
+.help{
+    padding: 10px 10px 23px 10px;
+    font-size: 12px;
+}
+
+.create_acc {
+    width: 348px;
+    border: 1px solid rgb(176, 173, 173);
+    padding-left: 15px;
+    -webkit-box-shadow: -3px -8px 12px 0px rgba(0,0,0,0.11);
+    -moz-box-shadow: -3px -8px 12px 0px rgba(0,0,0,0.11);
+    box-shadow: -3px -8px 12px 0px rgba(0,0,0,0.11); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 10px 500px;
+    height: 46px;
+    border-radius: 10px;
+}
+
+/* Footer CSS */
+footer {
+    background-color: #f1eded4c;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 19px;
+    height: 180px;
+    -webkit-box-shadow: -3px -8px 12px 0px rgba(0,0,0,0.11);
+    -moz-box-shadow: -3px -8px 12px 0px rgba(0,0,0,0.11);
+    box-shadow: -3px -8px 12px 0px rgba(0,0,0,0.11);    
+}
+
+.tc {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.component a {
+    padding: 10px;
+    text-decoration: none;
+    color: #0066c0;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #0066c0;
+}
+
+
+
+
+/* Pass.php page */
+.email_id{
+    display: flex;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+
+.checkbox-container label {
+    margin-left: 10px; /* Remove any default margin */
+    font-size: 12px;
+}
