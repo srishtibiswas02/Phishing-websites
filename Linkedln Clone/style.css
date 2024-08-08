@@ -1,0 +1,86 @@
+*{
+    margin: 11px;
+    padding: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+                                    /* FORM CSS */
+
+.main_con{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    width: 360px;
+    height: 460px; 
+    -webkit-box-shadow: -1px 3px 38px 2px rgba(148,146,146,0.58);
+    -moz-box-shadow: -1px 3px 38px 2px rgba(148,146,146,0.58);
+    box-shadow: -1px 3px 38px 2px rgba(148,146,146,0.58);
+    border-radius: 5px;
+}
+input{
+    width: 300px;
+    height: 42px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 11px 0 11px 0;
+}
+#signin{
+    background-color: #0A66C2;
+    padding: 0 24px;
+    height: 52px;
+    width: 300px;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+
+                                /* BELOW FORM CSS */
+.bel_form{
+    font-size: 12px;
+    margin: 0;
+}
+.bel_form p a{
+    color: #0073b1;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.create_acc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+                                            /* FOOTER CSS */
+
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(115 115 115);
+    font-size: 14px;
+}
+.card a{
+    text-decoration: none;
+    color: rgb(115 115 115);
+    cursor: pointer;
+}
+#lang{
+    border: none;
+    background-color: #fff;
+    color: rgb(115 115 115);
+}
